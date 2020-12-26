@@ -35,6 +35,20 @@ plugins:
   - jekyll-feed
 remote_theme: samarsault/plainwhite-jekyll
 
+# perfil
+plainwhite:
+  name: Eduardo Freire Mangabeira
+  tagline: Estatística e programação
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    github: edumangabeira
+    linkedIn: in/eduardo-freire-mangabeira-495593167 # format: locale/username
+
+# foto
+plainwhite:
+  portfolio_image:  "assets/perfis.png"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
