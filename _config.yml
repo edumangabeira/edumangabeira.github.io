@@ -30,7 +30,6 @@ twitter_username: jekyllrb
 github_username:  edumangabeira
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
 remote_theme: samarsault/plainwhite-jekyll
@@ -45,20 +44,17 @@ plainwhite:
     github: edumangabeira
     linkedIn: in/eduardo-freire-mangabeira-495593167 # format: locale/username
 
-# Foto
-plainwhite:
-  portfolio_image:  "assets/perfis.png"
+    # Foto
+    portfolio_image:  "assets/perfis.png"
 
-# Dark mode
-plainwhite:
-  dark_mode: true
+    # Dark mode
+    dark_mode: true
 
-# Mobile
-plainwhite:
-  condensed_mobile:
-    - home
-    - post
-    - page
+    # Mobile
+    condensed_mobile:
+      - home
+      - post
+      - page
 
 # Exclude from processing.
 # The following items will not be processed, by default.
