@@ -11,7 +11,7 @@ O maior diferencial do ioslides é apresentar gráficos e fórmulas geradas pelo
 
 Só para se ter uma ideia do que o ioslides é capaz, dá uma olhada nessa [apresentação](https://rpubs.com/Edumangabeira/645422) que fiz com um colega para um trabalho da faculdade.
 
-[Essa aqui também ficou bem interessante](https://rpubs.com/Edumangabeira/687807)
+[Essa aqui também ficou bem interessante](https://rpubs.com/Edumangabeira/687807).
 
 Apesar de alguns problemas aqui e ali(como os links saindo dos slides na última apresentação), não tem nada que não possa ser ajustado e é bem rápido configurar o ioslides, então vamos em frente!
 
@@ -21,22 +21,22 @@ Apesar de alguns problemas aqui e ali(como os links saindo dos slides na última
 
 2. Concluído este passo com sucesso, reinicie o Rstudio e crie um novo um novo arquivo no formato Rmarkdown. Para isso clique em ```File > New File > Rmarkdown...```
 
-![](C:\Users\Eduardo\edumangabeira.github.io\assets\newrmd.png)
+![](img/newrmd.png)
 
 3. Um pop-up vai surgir na sua tela, selecione "presentation" e clique na opção "HTML (ioslides)".
 
-![](C:\Users\Eduardo\edumangabeira.github.io\assets\ionew.png)
+![](img/ionew.png)
 
 4. E pronto! Você já pode começar a editar o seu arquivo e criar uma apresentação. O próprio Rstudio fornece um template com alguns exemplos do que é possível fazer usando o ioslides. Para compilar, basta pressionar ```Ctrl+Shift+k```.
 
-![](C:\Users\Eduardo\edumangabeira.github.io\assets\exrio.png)
+![](img/exrio.png)
 
-![](C:\Users\Eduardo\edumangabeira.github.io\assets\tableio.png)
+![](img/tableio.png)
 
-![](C:\Users\Eduardo\edumangabeira.github.io\assets\plotio.png)
+![](img/plotio.png)
 
 
-Uma dica de ouro é observar o código de outras apresentações para se ter ideia do que fazer com o seu próprio material, ou você pode se perder procurando funcionalidades que nem sabe se existem. Por isso deixo aqui disponível [o código fonte de uma apresentação](https://github.com/edumangabeira/R_exercicios/blob/master/georgeFloyd.Rmd).
+Uma dica de ouro é observar o código de outras apresentações para se ter ideia do que fazer com o seu próprio material, ou você pode se perder procurando funcionalidades que nem sabe se existem. Por isso deixo aqui disponível [o código fonte](https://github.com/edumangabeira/R_exercicios/blob/master/georgeFloyd.Rmd) de uma [apresentação](https://rpubs.com/Edumangabeira/634176).
 
 Espero que tenha gostado e até a próxima!
 
