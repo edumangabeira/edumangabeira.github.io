@@ -2,28 +2,41 @@
 layout: post
 title:  "Apresentações simples e chamativas com Rmarkdown e ioslides"
 date:   2020-12-26 07:28:13 -0300
-categories: jekyll update
+categories: Rmarkdown R Rstudio ioslides Data-visualization
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Se você é familiar com o Rmarkdown, mesmo que só um pouco, esse texto é para você! Mostrarei como usar o ioslides para suas apresentações, uma alternativa bem interessante para o Microsoft PowerPoint ou Google Presentations. No final do post você será capaz de fazer seus próprios slides e não vai querer saber de outra ferramenta.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+O maior diferencial do ioslides é apresentar gráficos e fórmulas geradas pelo seu código R sem precisar exportar a todo momento tabelas e imagens. Isso é feito sem usar uma interface gráfica, tudo no ioslides é escrito por meio da linguagem **markdown*. Caso você não conheça essa linguagem, pode respirar de alívio, em menos de 10 minutos é possível aprender os comandos básicos e começar a escrever. Usando o markdown podemos mudar a fonte do texto, inserir títulos, imagens, links, ajustar a velocidade de transição dos slides e muito mais! Só não esqueça que o propósito dessa ferramenta é facilitar a apresentação de suas análises, se você não tem gráficos ou tabelas criadas no Rstudio, talvez seja melhor usar os métodos mais tradicionais.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Só para se ter uma ideia do que o ioslides é capaz, dá uma olhada nessa apresentação que fiz com um colega para um trabalho da faculdade: [https://rpubs.com/Edumangabeira/645422]
 
-Jekyll also offers powerful support for code snippets:
+Essa aqui também ficou bem interessante: [https://rpubs.com/Edumangabeira/687807]
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Apesar de alguns problemas aqui e ali(como os links saindo dos slides na última apresentação), não tem nada que não possa ser ajustado e é bem rápido configurar o ioslides, então vamos em frente!
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+1. O único pré-requisito é ter o Rmarkdown instalado. Caso você não tenha, abra o Rstudio e digite no console:
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+```install.packages('rmarkdown')```
+
+2. Concluído este passo com sucesso, reinicie o Rstudio e crie um novo um novo arquivo no formato Rmarkdown. Para isso clique em ```File > New File > Rmarkdown...```
+
+![](C:/Users/Eduardo/edumangabeira.github.io/assets/newrmd.png)
+
+3. Um pop-up vai surgir na sua tela, selecione "presentation" e clique na opção "HTML (ioslides)".
+
+![](C:/Users/Eduardo/edumangabeira.github.io/assets/ionew.png)
+
+4. E pronto! Você já pode começar a editar o seu arquivo e criar uma apresentação. O próprio Rstudio fornece um template com alguns exemplos do que é possível fazer usando o ioslides. Para compilar, basta pressionar ```Ctrl+Shift+k```.
+
+![](C:/Users/Eduardo/edumangabeira.github.io/assets/exrio.png)
+
+![](C:/Users/Eduardo/edumangabeira.github.io/assets/tableio.png)
+
+![](C:/Users/Eduardo/edumangabeira.github.io/assets/plotio.png)
+
+
+Uma dica de ouro é observar o código de outras apresentações para se ter ideia do que fazer com o seu próprio material, ou você pode se perder procurando funcionalidades que nem sabe se existem. Por isso deixo aqui disponível o código fonte de uma apresentação: [https://github.com/edumangabeira/R_exercicios/blob/master/georgeFloyd.Rmd].
+
+Espero que tenha gostado e até a próxima!
+
