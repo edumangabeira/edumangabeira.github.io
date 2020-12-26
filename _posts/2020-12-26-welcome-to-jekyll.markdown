@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Apresentações simples e chamativas com Rmarkdown e ioslides"
 date:   2020-12-26 07:28:13 -0300
 categories: jekyll update
 ---
