@@ -36,22 +36,23 @@ plainwhite:
   name: Eduardo Freire
   tagline: Estatística e programação
   date_format: "%b %-d, %Y"
+  html_lang: "pt-BR"
 
   social_links:
     github: edumangabeira
     linkedIn: in/eduardo-freire-mangabeira-495593167 # format: locale/username
 
-    # Foto
-    portfolio_image: "assets/perfis.png"
+  # Foto
+  portfolio_image: "assets/perfis.png"
 
-    # Dark mode
-    dark_mode: true
+  # Dark mode
+  dark_mode: true
 
-    # Mobile
-    condensed_mobile:
-      - home
-      - post
-      - page
+  # Mobile
+  condensed_mobile:
+    - home
+    - post
+    - page
 
 # Exclude from processing.
 # The following items will not be processed, by default.
